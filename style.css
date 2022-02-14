@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container button {
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+    box-shadow: 3px 3px 0px 0px #00000054;
+    border-radius: 0;
+    color: rgb(224, 224, 224);
+    border-color: rgba(10, 108, 165, 0.603);
+    background: rgba(8, 66, 99, 0.712);
+}
+
+.container button:hover {
+    background: rgba(14, 103, 155, 0.712);
+}
